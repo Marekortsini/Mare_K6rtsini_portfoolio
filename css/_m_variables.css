@@ -1,0 +1,15 @@
+/* kujunduse muutujad */
+
+body {
+    --primary-100: #FA00E1;
+    --primary-110: #BE02B7;
+    --primary-120: #900093;
+    --secondary-100: #00D1FF;
+    --secondary-110: #0295D5;
+    --secondary-120: #0267B0;
+    --black-110: #010004;
+    --textblack: #262626;
+    --gray-20: #ACACAC;
+    --gray-10: #DEDFDF; 
+    --white: #F6F5F6;
+}

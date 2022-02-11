@@ -1,0 +1,43 @@
+@import "_m_variables.css";
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    /* width: 48px; 
+    height: 48px;  */
+}
+
+.navbar-icon-esileht {
+    width: 18px; 
+    height: 10px; 
+    background-image: url(../img/Hamburgerimenyy_laine.svg) !important;
+    
+}
+
+.navbar-toggler-esileht {
+    width: 48px; 
+    height: 48px;
+    background-color: var(--primary-100);
+    border-radius: 48px;
+ }
+
+.navbar-toggler-esileht:hover {
+    width: 48px; 
+    height: 48px;
+    background-color: var(--primary-110);
+    border-radius: 48px;
+}
+
+.navbar-toggler-sinine {
+    width: 48px; 
+    height: 48px;
+    background-color: var(--secondary-100);
+    border-radius: 48px;
+ }
+
+ 
+.navbar-toggler-sinine:hover {
+    width: 48px; 
+    height: 48px;
+    background-color: var(--secondary-110);
+    border-radius: 48px;
+}

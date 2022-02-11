@@ -1,0 +1,83 @@
+
+
+#sec-1 {
+    background: url("../img/Hero_meri.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.section-dark {
+    background: url("../img/Tume_taust.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.section-light {
+    background: url("../img/Hele_taust.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+#sec-1 > .fp-tableCell {
+    vertical-align: top;
+ }
+
+ #sec-2 > .fp-tableCell {
+    vertical-align: top;
+ }
+
+/* Seda logo kohta tuleb vaadata!/ */
+ 
+.row-logo {
+    vertical-align: right;
+    padding: 150px 0px 150px 0px;
+}
+
+
+.section-main {
+    padding:0px 136px 0px 136px;
+}
+
+.navbar-esileht {
+    margin: 36px 136px 0px 136px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+/* .navbar-kaks {
+    margin:
+} */
+
+/* .container-heading {
+    margin-top: 500px;
+}
+
+.my-container-yks {
+    height: 500px;
+} */
+
+/* .carousel-slide {
+    size: 50%;
+} */
+
+/* see asi vähemalt mõjub, erinevalt kõigele muule */
+/* .carousel-indicators {
+    bottom: 100px;
+} */
+
+/* .carousel-inner {
+    height: 300px;
+} */
+
+/* footer */
+.footer {
+    height: 303px;
+}
+
+#sec-footer {
+    background-image: url("../img/meri_laiem_footer.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-header{
+    margin-bottom: 8px;
+}
