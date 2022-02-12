@@ -27,9 +27,13 @@
  
 .row-logo {
     vertical-align: right;
-    padding: 150px 0px 150px 0px;
+    padding: 150px 0px 150px 136px;
 }
 
+.nool-alla {
+    align-items: center bottom ;
+    height: 64px;
+}
 
 .section-main {
     padding:0px 136px 0px 136px;
@@ -80,4 +84,8 @@
 
 .section-header{
     margin-bottom: 8px;
+    align-items: center;
+    opacity: 0.25;
+    color: var(--white);
+
 }
