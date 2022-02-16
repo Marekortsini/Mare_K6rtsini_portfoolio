@@ -1,17 +1,17 @@
 
 
 #sec-1 {
-    background: url("../img/Hero_meri.jpg") no-repeat center bottom;
+    background: url("../img/hero_meri.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .section-dark {
-    background: url("../img/Tume_taust.jpg") no-repeat center bottom;
+    background: url("../img/tume_taust.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
 .section-light {
-    background: url("../img/Hele_taust.jpg") no-repeat center bottom;
+    background: url("../img/hele_taust.jpg") no-repeat center bottom;
     background-size: cover;
 }
 
@@ -27,20 +27,17 @@
  
 .row-logo {
     vertical-align: right;
-    padding: 150px 0px 150px 136px;
+    padding: 19.375rem 0rem 9.375rem 8.5rem;
 }
 
-.nool-alla {
-    align-items: center bottom ;
-    height: 64px;
-}
+
 
 .section-main {
-    padding:0px 136px 0px 136px;
+    padding:0px 8.5rem 0px 8.5rem;
 }
 
 .navbar-esileht {
-    margin: 36px 136px 0px 136px;
+    margin: 2.25rem 8.5rem 0px 8.5rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
@@ -72,7 +69,7 @@
 
 /* footer */
 .footer {
-    height: 303px;
+    height: 18.938rem;
 }
 
 #sec-footer {
@@ -83,9 +80,31 @@
 }
 
 .section-header{
-    margin-bottom: 8px;
+    margin-bottom: 0,5rem;
     align-items: center;
     opacity: 0.25;
     color: var(--white);
 
+}
+
+
+.section-header-valgel{
+    margin-bottom: 0,5rem;
+    align-items: center;
+    opacity: 0.5;
+    color: var(--black-110);
+
+}
+
+.row-footer {
+    text-align: center;
+    color: var(--white);
+}
+
+.col-logo-footer {
+   margin top: 5rem;
+}
+
+.row-nool {
+    margin-bottom: 5rem;
 }

@@ -2,42 +2,134 @@
 
 .navbar-light .navbar-toggler-icon {
     background-image: none;
-    /* width: 48px; 
-    height: 48px;  */
+    /* width: 3rem; 
+    height: 3rem;  */
 }
 
 .navbar-icon-esileht {
-    width: 18px; 
-    /* height: 10px;  */
-    background-image: url(../img/Hamburgerimenyy_laine.svg) !important;
+    width: 1.125rem; 
+    /* height: 0,625rem;  */
+    background-image: url(../img/hamburgerimenyy_laine.svg) !important;
     
 }
 
 .navbar-toggler-esileht {
-    width: 48px; 
-    height: 48px;
+    width: 3rem; 
+    height: 3rem;
     background-color: var(--primary-100);
-    border-radius: 48px;
+    border-radius: 3rem;
+    
  }
 
 .navbar-toggler-esileht:hover {
-    width: 48px; 
-    height: 48px;
+    width: 3rem; 
+    height: 3rem;
     background-color: var(--primary-110);
-    border-radius: 48px;
+    border-radius: 3rem;
 }
 
 .navbar-toggler-sinine {
-    width: 48px; 
-    height: 48px;
+    width: 3rem; 
+    height: 3rem;
     background-color: var(--secondary-100);
-    border-radius: 48px;
+    border-radius: 3rem;
  }
 
- 
-.navbar-toggler-sinine:hover {
-    width: 48px; 
-    height: 48px;
+ .navbar-toggler-sinine:hover {
+    width: 3rem; 
+    height: 3rem;
     background-color: var(--secondary-110);
-    border-radius: 48px;
+    border-radius: 3rem;
+ }
+ 
+.navbar-toggler-roosa:hover {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--primary-110);
+    border-radius: 3rem;
+}
+
+.navbar-toggler-roosa {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--primary-100);
+    border-radius: 3rem;
+ }
+
+.navbar-toggler-esileht:hover {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--primary-110);
+    border-radius: 3rem;
+}
+
+.carousel-indicators-raamatud [data-bs-target]{
+    height: 0.25rem;
+    width: 1,5rem;
+    background-color: var(--secondary-100);
+}
+
+.carousel-indicators-plakatid [data-bs-target]{
+    height: 0.25rem;
+    width: 1,5rem;
+    background-color: var(--primary-100);
+}
+
+.carousel-control-prev-icon-must {
+    background-image: url(../img/nool_vasakule_tume.svg);
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+
+.carousel-control-next-icon-must {
+    background-image: url(../img/nool_paremale_tume.svg);
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+.carousel-control-prev-icon-valge {
+    background-image: url(../img/nool_vaskule_valge.svg);
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+
+.carousel-control-next-icon-valge {
+    background-image: url(../img/nool_paremale_valge.svg);
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+
+.nool-alla {
+    align-items: center bottom ;
+    height: 4rem;
+    margin-bottom: 1rem;
+    position: center;
+}
+
+
+.nool-alla:hover {
+    align-items: center bottom ;
+    height: 4rem;
+    margin-bottom: 1rem;
+    position: center;
+    background-image: url(../img/nool_alla_2.svg);
 }
