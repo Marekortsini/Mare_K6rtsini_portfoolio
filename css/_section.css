@@ -32,6 +32,8 @@
 
 
 
+
+
 .section-main {
     padding:0px 8.5rem 0px 8.5rem;
 }
@@ -42,49 +44,78 @@
     padding-bottom: 0rem;
 }
 
-/* .navbar-kaks {
-    margin:
-} */
 
-/* .container-heading {
-    margin-top: 500px;
-}
 
-.my-container-yks {
-    height: 500px;
-} */
-
-/* .carousel-slide {
-    size: 50%;
-} */
-
-/* see asi vähemalt mõjub, erinevalt kõigele muule */
-/* .carousel-indicators {
-    bottom: 100px;
-} */
-
-/* .carousel-inner {
-    height: 300px;
-} */
-
-/* footer */
-.footer {
+/* .footer {
     height: 18.938rem;
-}
+} */
+
 
 #sec-footer {
-    background-image: url("../img/meri_laiem_footer.jpg");
+    /* background-image: url("../img/meri_laiem_footer.jpg"); */
+    background-image: url("../img/tume_taust_footer.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
+
+html, body { height: 100%; }
+body {
+  background:radial-gradient(ellipse at center, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 35%, #ffffff 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 7%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #ffffff;
+}
+
+.wave {
+  background: url("../img/wawe_white.svg") repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 6s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
 
 .section-header{
     margin-bottom: 0,5rem;
     align-items: center;
     opacity: 0.25;
     color: var(--white);
-
 }
 
 
@@ -93,7 +124,6 @@
     align-items: center;
     opacity: 0.5;
     color: var(--black-110);
-
 }
 
 .row-footer {
@@ -101,10 +131,68 @@
     color: var(--white);
 }
 
-.col-logo-footer {
-   margin top: 5rem;
-}
 
 .row-nool {
     margin-bottom: 5rem;
+}
+
+/* Siit algab alalekhekülg MINU TÖÖD */
+
+.hero-bg-kontakt {
+    background-image: url("../img/roosa_taust_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar-kontakt {
+    margin: 2.25rem 8.5rem 0px 8.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.container-kontakt{
+    color: var(--white);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-kontakt-yks {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col-kontakt-kaks {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.col-kontakt-kolm {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+/* siit algab alalehekülg TUTVUSTUS */
+
+.hero-bg-tutvustus {
+    background-image: url("../img/meri_full\ tutvustus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar-tutvustus {
+    margin: 2.25rem 8.5rem 0px 8.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+
+.portree-tutvustus {
+    /* align: top center; */
+    /* width: 3rem; */
+    /* height: 50%; */
+    border-radius: 15rem;
 }

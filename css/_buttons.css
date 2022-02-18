@@ -27,6 +27,11 @@
     background-color: var(--primary-110);
     border-radius: 3rem;
 }
+.navbar-toggler-nonfocus:focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 
 .navbar-toggler-sinine {
     width: 3rem; 
@@ -56,12 +61,7 @@
     border-radius: 3rem;
  }
 
-.navbar-toggler-esileht:hover {
-    width: 3rem; 
-    height: 3rem;
-    background-color: var(--primary-110);
-    border-radius: 3rem;
-}
+
 
 .carousel-indicators-raamatud [data-bs-target]{
     height: 0.25rem;
@@ -118,18 +118,83 @@
     opacity: 0.7;
 }
 
-.nool-alla {
-    align-items: center bottom ;
-    height: 4rem;
-    margin-bottom: 1rem;
-    position: center;
+
+
+.btn-nool-alla {
+    height: 86px;
+    /* background-color: none; */
+    background: url('../img/nool_alla.svg') no-repeat top center;
 }
 
 
-.nool-alla:hover {
-    align-items: center bottom ;
-    height: 4rem;
-    margin-bottom: 1rem;
-    position: center;
-    background-image: url(../img/nool_alla_2.svg);
+.btn-nool-alla:hover {
+    /* height: 4rem;
+    background-color: none;
+    border-color: none; */
+    background: url('../img/nool_alla_2.svg') no-repeat top center;
 }
+
+
+.col-logo-footer {
+  /* margin: 0;
+  position: absolute;
+  top: 50%; */
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  /* vertical-align: middle; */
+}
+
+/* Siit algab alalehekülg MINU TÖÖD */
+
+.navbar-icon-kontakt {
+    width: 1.125rem; 
+    /* height: 0,625rem;  */
+    background-image: url(../img/rist_valge.svg) !important;
+    
+}
+
+.navbar-toggler-kontakt {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--white);
+    border-radius: 3rem;
+ }
+ .navbar-toggler-kontakt:hover {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--primary-120);
+    background-image: url(../img/rist_valge.svg) no-repeat;
+    border-radius: 3rem;
+ }
+
+
+ /* Siit algab alalehekülg TUTVUSTUS */
+
+ .navbar-icon-tutvustus {
+    width: 1.125rem; 
+    /* height: 0,625rem;  */
+    background-image: url(../img/Hamburgerimenyy_laine_tutvustus.svg) !important;
+    
+}
+
+.navbar-toggler-tutvustus {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--white);
+    border-radius: 3rem;
+ }
+ .navbar-toggler-tutvustus:hover {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--secondary-120);
+    /* background-image: url(../img/Hamburgerimenyy_laine_tutvustus.svg) no-repeat; */
+    border-radius: 3rem;
+ }
+
+ .btn-portree {
+     width: 20rem;
+     height: 20rem;
+     background-image: url(../img/mare-portree_1.png);
+     align-items: center;
+     border-radius: 100rem;
+ }
