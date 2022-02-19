@@ -45,21 +45,27 @@
 }
 
 
-
-/* .footer {
-    height: 18.938rem;
-} */
-
-
 #sec-footer {
-    /* background-image: url("../img/meri_laiem_footer.jpg"); */
     background-image: url("../img/tume_taust_footer.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
+
 }
 
+
+.footer {
+    height: 18.938rem;
+}
+
+
+
+
+
+
+/* 
+* Esilehe laine 
+*/
 
 html, body { height: 100%; }
 body {
@@ -110,6 +116,10 @@ body {
   }
 }
 
+/* 
+* Esilehe laine lõpp 
+*/
+
 
 .section-header{
     margin-bottom: 0,5rem;
@@ -129,6 +139,7 @@ body {
 .row-footer {
     text-align: center;
     color: var(--white);
+    padding-top: 2rem;
 }
 
 
@@ -144,6 +155,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    overflow: auto;
 }
 
 .navbar-kontakt {
@@ -181,6 +193,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    overflow: auto;
 }
 
 .navbar-tutvustus {
@@ -195,4 +208,60 @@ body {
     /* width: 3rem; */
     /* height: 50%; */
     border-radius: 15rem;
+}
+
+
+.tutvustus-yks {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.tutvustus-kaks {
+    align-items: center;
+
+    max-width: 589px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.tutcustus-kolm {
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.tutvustus-neli {
+    padding-bottom: 0rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+/* 
+* Siit algab tööde garerii 
+*/
+
+.hero-bg-toode-galerii {
+    background-color: var(--black-110);
+    background-size: cover;
+    height: auto;
+    overflow: scroll;
+}
+
+.row-toode-galerii {
+    margin: 1rem;
+}
+
+.col2-toode-galerii {
+    padding: 1rem;
 }

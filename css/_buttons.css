@@ -183,6 +183,7 @@
     background-color: var(--white);
     border-radius: 3rem;
  }
+
  .navbar-toggler-tutvustus:hover {
     width: 3rem; 
     height: 3rem;
@@ -192,9 +193,51 @@
  }
 
  .btn-portree {
-     width: 20rem;
-     height: 20rem;
-     background-image: url(../img/mare-portree_1.png);
+     width: 19.6rem;
+     height: 19.6rem;
+     background-image: url(../img/portee_ymmargune_1.png);
      align-items: center;
+     /* animation-delay: 2s; */
+     /* transition-delay: 2s; */
      border-radius: 100rem;
+     padding: 2rem;
  }
+
+ .btn-portree:hover {
+    width: 19.6rem;
+    height: 19.6rem;
+    background-image: url(../img/portree_ymmargune_2.png);
+    align-items: center;
+    /* animation-delay: 2s; */
+    /* transition-delay: 2s; */
+    border-radius: 100rem;
+    padding: 2rem;
+}
+
+/* 
+* Siit algab tööde galerii 
+*/
+
+
+ .navbar-icon-toode-galerii {
+    width: 1.125rem; 
+    /* height: 0,625rem;  */
+    background-image: url(../img/rist_sinisel.svg) !important;
+    
+}
+
+.navbar-toggler-toode-galerii {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--secondary-100);
+    border-radius: 3rem;
+ }
+
+ .navbar-toggler-toode-galerii:hover {
+    width: 3rem; 
+    height: 3rem;
+    background-color: var(--secondary-120);
+    border-radius: 3rem;
+ }
+ 
+ 
