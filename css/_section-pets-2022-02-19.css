@@ -1,0 +1,257 @@
+#sec-1,
+.section-hero {
+    background: url("../img/hero_meri.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.section-dark {
+    background: url("../img/tume_taust.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.section-light {
+    background: url("../img/hele_taust.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+#sec-1>.fp-tableCell {
+    vertical-align: top;
+}
+
+#sec-2>.fp-tableCell {
+    vertical-align: top;
+}
+
+
+/* Seda logo kohta tuleb vaadata!/ */
+
+.row-logo {
+    vertical-align: right;
+    padding: 19.375rem 0rem 9.375rem 8.5rem;
+}
+
+.section-main {
+    padding: 0px 8.5rem 0px 8.5rem;
+}
+
+.navbar-esileht {
+    margin: 2.25rem 8.5rem 0px 8.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+#sec-footer {
+    background-image: url("../img/tume_taust_footer.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    height: 18.938rem;
+}
+
+
+/* 
+* Esilehe laine 
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(ellipse at center, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 35%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.ocean {
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+
+.wave {
+    background: url("../img/wawe_white.svg") repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 6s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%,
+    100% {
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+}
+
+
+/* 
+* Esilehe laine lõpp 
+*/
+
+.section-header {
+    margin-bottom: 0, 5rem;
+    align-items: center;
+    opacity: 0.25;
+    color: var(--white);
+}
+
+.section-header-valgel {
+    margin-bottom: 0, 5rem;
+    align-items: center;
+    opacity: 0.5;
+    color: var(--black-110);
+}
+
+.row-footer {
+    text-align: center;
+    color: var(--white);
+    padding-top: 2rem;
+}
+
+.row-nool {
+    margin-bottom: 5rem;
+}
+
+
+/* Siit algab alalekhekülg MINU TÖÖD */
+
+.hero-bg-kontakt {
+    background-image: url("../img/roosa_taust_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar-kontakt {
+    margin: 2.25rem 8.5rem 0px 8.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.container-kontakt {
+    color: var(--white);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-kontakt-yks {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col-kontakt-kaks {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.col-kontakt-kolm {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+
+/* siit algab alalehekülg TUTVUSTUS */
+
+.hero-bg-tutvustus {
+    background-image: url("../img/meri_full\ tutvustus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar-tutvustus {
+    margin: 2.25rem 8.5rem 0px 8.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.portree-tutvustus {
+    /* align: top center; */
+    /* width: 3rem; */
+    /* height: 50%; */
+    border-radius: 15rem;
+}
+
+.tutvustus-yks {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.tutvustus-kaks {
+    align-items: center;
+    max-width: 589px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.tutcustus-kolm {
+    padding-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.tutvustus-neli {
+    padding-bottom: 0rem;
+    color: var(--white);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+/* 
+* Siit algab tööde garerii 
+*/
+
+.hero-bg-toode-galerii {
+    background-color: var(--black-110);
+    background-size: cover;
+    height: auto;
+    overflow: scroll;
+}
+
+.row-toode-galerii {
+    margin: 1rem;
+}
+
+.col2-toode-galerii {
+    padding: 1rem;
+}
