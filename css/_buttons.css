@@ -1,14 +1,18 @@
 @import "_m_variables.css";
 
+#cursors {
+    width: 5rem;
+    height: 5rem;
+    background-color: blue;
+}
+
 .navbar-light .navbar-toggler-icon {
     background-image: none;
-    /* width: 3rem; 
-    height: 3rem;  */
+   
 }
 
 .navbar-icon-esileht {
     width: 1.125rem; 
-    /* height: 0,625rem;  */
     background-image: url(../img/hamburgerimenyy_laine.svg) !important;
     
 }
@@ -20,6 +24,37 @@
     border-radius: 3rem;
     
  }
+
+ .navbar-light .navbar-toggler-esileht {
+    transition: background-color 1s;
+}
+
+.fp-viewing-1 .navbar-light .navbar-toggler-esileht {
+    background-color: var(--secondary-100);
+}
+
+
+
+.muudab-varvi {
+    filter: invert(50%);
+    /* fill: var(--secondary-100); */
+}
+
+.fp-viewing-3 .navbar-light .navbar-toggler-esileht {
+    background-color: var(--secondary-100);
+}
+
+.fp-viewing-5 .navbar-light .navbar-toggler-esileht {
+    background-color: var(--secondary-100);
+}
+.navbar-brand img {
+    transition: opacity 1s;
+    opacity: 0;
+ }
+
+:not(.fp-viewing-0 .navbar-brand img) {
+    opacity: 1;
+}
 
 .navbar-toggler-esileht:hover {
     width: 3rem; 
@@ -40,27 +75,27 @@
     border-radius: 3rem;
  }
 
- .navbar-toggler-sinine:hover {
+ .fp-viewing-3 .navbar-light .navbar-toggler-esileht {
     width: 3rem; 
     height: 3rem;
     background-color: var(--secondary-110);
     border-radius: 3rem;
  }
- 
+/*  
 .navbar-toggler-roosa:hover {
     width: 3rem; 
     height: 3rem;
     background-color: var(--primary-110);
     border-radius: 3rem;
-}
+} */
 
-.navbar-toggler-roosa {
+/* .navbar-toggler-roosa {
     width: 3rem; 
     height: 3rem;
     background-color: var(--primary-100);
     border-radius: 3rem;
  }
-
+ */
 
 
 .carousel-indicators-raamatud [data-bs-target]{

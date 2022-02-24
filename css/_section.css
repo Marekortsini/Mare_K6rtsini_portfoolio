@@ -25,11 +25,15 @@
 
 /* Seda logo kohta tuleb vaadata!/ */
  
-.row-logo {
-    vertical-align: right;
-    padding: 19.375rem 0rem 9.375rem 8.5rem;
-}
 
+
+.image-logo {
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
 
 
 
@@ -126,6 +130,8 @@ body {
     align-items: center;
     opacity: 0.25;
     color: var(--white);
+    padding-top: 7rem;
+   
 }
 
 
@@ -144,7 +150,9 @@ body {
 
 
 .row-nool {
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 0rem;
+    
 }
 
 /* Siit algab alalekhekülg MINU TÖÖD */
@@ -204,12 +212,20 @@ body {
 
 
 .portree-tutvustus {
-    /* align: top center; */
+    align: center;
     /* width: 3rem; */
     /* height: 50%; */
     border-radius: 15rem;
 }
 
+.col-portee {
+    padding-top: 8rem;
+}
+
+
+.tutvustus {
+    overflow: scroll;
+}
 
 .tutvustus-yks {
     padding-top: 2rem;
@@ -221,13 +237,13 @@ body {
 
 .tutvustus-kaks {
     align-items: center;
-
     max-width: 589px;
     font-size: 1.125rem;
     font-weight: 400;
     padding-bottom: 4rem;
     color: var(--white);
     text-align: center;
+  
 }
 
 .tutcustus-kolm {
@@ -260,6 +276,7 @@ body {
 
 .row-toode-galerii {
     margin: 1rem;
+   
 }
 
 .col2-toode-galerii {
