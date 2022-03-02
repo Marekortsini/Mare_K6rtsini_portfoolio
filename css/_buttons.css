@@ -126,27 +126,17 @@ body:not(.fp-viewing-0) .navbar-brand img {
 }
 
 .btn-nool-alla:hover {
-    /* height: 4rem;
-    background-color: none;
-    border-color: none; */
+
     background: url("../img/nool_alla_2.svg") no-repeat top center;
 }
 
-.col-logo-footer {
-    /* margin: 0;
-  position: absolute;
-  top: 50%; */
-    /* -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
-    /* vertical-align: middle; */
-}
+
 
 /* Siit algab alalehekülg MINU TÖÖD */
 
 .navbar-icon-kontakt {
     width: 1.125rem;
-    /* height: 0,625rem;  */
-    background-image: url(../img/rist_valge.svg) !important;
+        background-image: url(../img/rist_valge.svg) !important;
 }
 
 .navbar-toggler-kontakt {
@@ -193,7 +183,7 @@ body:not(.fp-viewing-0) .navbar-brand img {
 .navbar-icon-toode-galerii {
     width: 1.125rem;
     /* height: 0,625rem;  */
-    background-image: url(../img/rist_sinisel.svg) !important;
+    background-image: url(../img/hamburgerimenyy_laine.svg) !important;
 }
 
 .navbar-toggler-toode-galerii {
@@ -208,4 +198,44 @@ body:not(.fp-viewing-0) .navbar-brand img {
     height: 3rem;
     background-color: var(--secondary-120);
     border-radius: 3rem;
+}
+
+/* 
+Siit algavad tööde detailvaated
+ */
+.btn-nool {
+    border-radius: 0%;
+    min-width: 10rem;
+}
+
+.btn-nool:hover {
+    background-color: var(--gray-10);
+    border-radius: 0%;
+    min-width: 10rem;  
+}
+
+.btn-nool:hover img {
+    content: url(../img/nool_detalil_vasakule_must.svg);    
+}
+
+.btn-nool:hover span {
+    color: var(--black-110);
+}
+
+.btn-nool span {
+    margin-left: 1rem;
+    color: var(--gray-10);
+}
+
+.btn-nool span:hover {
+    margin-left: 1rem;
+    color: var(--black-110);    
+}
+
+.nool-paremale span {
+    margin-right: 1rem;
+}
+
+.nool-paremale:hover img {
+    content: url(../img/nool_detail_paremale_must.svg);    
 }
