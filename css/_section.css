@@ -37,11 +37,16 @@
 
 
 .navbar-esileht {
-    margin: 2.25rem 8.5rem 0px 8.5rem;
+    margin: 2.25rem 2rem 0px 2rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
 
+@media (min-width: 768px) {
+    .navbar-esileht {
+        margin: 8,5rem 8.5rem 0 8.5rem;
+    }
+}
 
 #sec-footer {
     background-image: url("../img/tume_taust_footer.jpg");

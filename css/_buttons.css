@@ -203,6 +203,28 @@ body:not(.fp-viewing-0) .navbar-brand img {
 /* 
 Siit algavad tööde detailvaated
  */
+
+ .navbar-icon-tood-eraldi-sinine {
+    width: 1.125rem;
+        background-image: url(../img/rist_sinisel.svg) !important;
+}
+
+.navbar-toggler-tood-eraldi-sinine {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--secondary-100);
+    border-radius: 3rem;
+}
+.navbar-toggler-tood-eraldi-sinine:hover {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--secondary-120);
+    background-image: url(../img/rist_valge.svg) no-repeat;
+    border-radius: 3rem;
+}
+
+
+
 .btn-nool {
     border-radius: 0%;
     min-width: 10rem;
