@@ -5,32 +5,26 @@ body {
     font-weight: 500;
 }
 
-/* h1 {
-    font-size: 7.5rem;
-    font-weight: 600;
-    letter-spacing: 0.9rem;
-    text-align: center;
-    /* margin: 0; */
-/* } */ 
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-weight: 600;
     letter-spacing: 0.4rem;
     text-align: center;
-    /* margin: 0; */
 }
 
 @media (min-width: 768px) {
     h1 {
-font-size: 6rem;
-letter-spacing: 0.7rem;
+font-size: 5.5rem;
+letter-spacing: 0.6rem;
+}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     h1 {
 font-size: 7.5rem;
 letter-spacing: 0.9rem;
+}
 }
 
 
@@ -62,4 +56,3 @@ h5 {
 p {
     margin: 0;
 }
-
