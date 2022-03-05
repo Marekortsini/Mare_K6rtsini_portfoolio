@@ -1,17 +1,17 @@
 
 
 # Esileht
-*Proovisin navbari teha responsiviks, aga ei õnnestunud. Paigast läksid ka vasak-parem ääred.
-Vasakult paremalt peab suurel ekraanil olema ruumi 8,5rem 
-väiksema ekraani puhul vasakult paremalt ruumi 2rem
+
+
+Navbari värvivahetus lakkas töötamast
+Karuselli paremal noole pole hoverit enam
+Näituste sektsioonis ei tööta pildi all olev navigaator kui sellele vajutada
 
 # Kaiken
-Ristist kinni nupp peab minema esilehe teisele sektsioonile RAAMATUD
+Nuppude klikid
 
 # Sonajalaois
-Tektiplokk peab olema vasakul nagu Kaikeni lehel, aga hüppab paremale. 
-Meedium ekraanil peab tekstiplokk olema ülemine, praegu hüppab teise ritta
-Mobiili ekraanil peab tekstiplokk olema teine. Praegu hüppab neljandaks.
+
 
 # Tekstide suurus suurel/väikesel ekraanil
 Kuidas teha? H1 vaja teha responsiviks - suurel ekraanil ok, mobiilis peaks olema 48 px
