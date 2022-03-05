@@ -7,11 +7,24 @@
     overflow: auto;
 }
 
-.navbar-tutvustus {
+/* .navbar-tutvustus {
     margin: 2.25rem 8.5rem 0px 8.5rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
+} */
+
+.navbar-tutvustus {
+    margin: 2.25rem 2rem 0px 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
+
+@media (min-width: 768px) {
+    .navbar-tutvustus {
+        margin: 8,5rem 8.5rem 0 8.5rem;
+    }
+}
+
 
 .tutvustus-portree-konteiner {
     display: flex;

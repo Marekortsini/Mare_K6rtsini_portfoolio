@@ -179,10 +179,22 @@ Siit algab alalekhekülg MINU TÖÖD
     overflow: auto;
 }
 
-.navbar-kontakt {
+/* .navbar-kontakt {
     margin: 2.25rem 8.5rem 0px 8.5rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
+} */
+
+.navbar-kontakt {
+    margin: 2.25rem 2rem 0px 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+@media (min-width: 768px) {
+    .navbar-kontakt {
+        margin: 8,5rem 8.5rem 0 8.5rem;
+    }
 }
 
 .hero-bg-kontakt {
