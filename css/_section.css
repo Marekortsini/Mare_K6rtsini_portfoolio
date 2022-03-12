@@ -230,7 +230,7 @@ Siit algab alalekhekülg MINU TÖÖD
     background-color: var(--black-110);
     height: 100%;
     overflow: auto;
-    padding: 8.5rem 0rem 0rem 0rem;
+    padding: 8.5rem 0rem 5rem 0rem;
     /* display: grid;
     grid-template-columns: repeat(4, 1fr); */
     /* grid-column-gap: 10px;
