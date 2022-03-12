@@ -253,6 +253,15 @@ Siit algab alalekhekülg MINU TÖÖD
     /* display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 1rem; */
+
+}
+
+/* Seda kohta vaadata!!!!!!!!!!! */
+
+@media (min-width: 768px) {
+    .row-toode-galerii {
+        padding: 8,5rem 8.5rem 0 8.5rem;
+    }
 }
 
 .col-toode-galerii {
