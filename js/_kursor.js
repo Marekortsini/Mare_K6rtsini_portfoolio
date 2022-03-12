@@ -4,10 +4,8 @@ gsap.set('.cursor-follower', { xPercent: -50, yPercent: -70 });
  * VARS
  * -------------------------- */
 const root = document.documentElement;
-const main = document.querySelector('.main');
 const cursorFollower = document.querySelector('.cursor-follower');
 const cursorFollowerText = document.querySelector('.message');
-const menuButton = document.querySelector('.menu');
 const cursorFollowerMessages = document.querySelectorAll('.cursor-follower-message');
 let pos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
 let mouse = { x: pos.x, y: pos.y };
@@ -37,46 +35,8 @@ window.addEventListener('mousemove', e => {
   root.style.setProperty('--mouse-x', mouse.x + 'px');
   root.style.setProperty('--mouse-y', mouse.y + 'px');
 
-});
+  console.log("move " + mouse.x + " " + mouse.y);
 
-let menuTimeline = gsap.timeline({ paused: true });
-
-menuTimeline.to(".dot", {
-  duration: 0.2,
-  y: 5,
-  opacity: 0,
-  ease: "power1.inOut",
-  stagger: {
-    amount: 0.1
-  }
-})
-  .set(".dot", {
-    y: -5,
-  })
-  .to(".dot", {
-    duration: 0.2,
-    y: 0,
-    opacity: 1,
-    ease: "power1.inOut",
-    stagger: {
-      amount: 0.1
-    }
-  })
-  ;
-
-
-/* --------------------------
- * MENU BUTTON
- * -------------------------- */
-menuButton.addEventListener('mouseover', e => {
-  gsap.to('.cursor-follower', { width: 40, height: 40 });
-
-  menuTimeline.seek(0);
-  menuTimeline.play();
-});
-
-menuButton.addEventListener('mouseout', e => {
-  gsap.to('.cursor-follower', { width: 10, height: 10 });
 });
 
 
