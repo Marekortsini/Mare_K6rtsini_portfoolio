@@ -62,12 +62,12 @@ cursorFollowerMessages.forEach((cursorFollowerMessage) => {
   let message = cursorFollowerMessage.dataset.cursorMessage;
 
   cursorFollowerMessage.addEventListener('mouseover', e => {
-    gsap.to('.cursor-follower', { width: 70, height: 70, duration: 0.3, backgroundColor: 'rgba(255,255,255,0.9)', ease: 'back.inOut(1.3)' });
+    gsap.to('.cursor-follower', { width: 60, height: 60, duration: 0.3, backgroundColor: 'rgba(246,245,245,0.9)', ease: 'back.inOut(1.3)' });
     gsap.to('.message', { opacity: 1, duration: 0.3, scale: 1, text: message });
 
   });
   cursorFollowerMessage.addEventListener('mouseout', e => {
-    gsap.to('.cursor-follower', { width: 10, height: 10, duration: 0.3, backgroundColor: 'rgba(255,255,255,0)' });
+    gsap.to('.cursor-follower', { width: 10, height: 10, duration: 0.3, backgroundColor: 'rgba(246,245,245,0)' });
     gsap.to('.message', { opacity: 0, duration: 0.3, scale: 0, text: "" });
     ;
   });
