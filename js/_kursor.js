@@ -35,7 +35,7 @@ window.addEventListener('mousemove', e => {
   root.style.setProperty('--mouse-x', mouse.x + 'px');
   root.style.setProperty('--mouse-y', mouse.y + 'px');
 
-  console.log("move " + mouse.x + " " + mouse.y);
+  // console.log("move " + mouse.x + " " + mouse.y);
 
 });
 

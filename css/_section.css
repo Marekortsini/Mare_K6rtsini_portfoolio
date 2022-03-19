@@ -27,7 +27,7 @@
     padding: 0px 2rem 0px 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .section-main {
         padding: 0 8.5rem 0 8.5rem;
     }
@@ -39,7 +39,7 @@
     padding-bottom: 0rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .navbar-esileht {
         margin: 8,5rem 8.5rem 0 8.5rem;
     }
@@ -126,7 +126,6 @@ body {
     align-items: center;
     opacity: 0.25;
     color: var(--white);
-    /* padding-top: 7rem; */
 }
 
 .section-header-valgel {
@@ -160,7 +159,7 @@ Siit algab TUTVUSTUS
 }
 
 /* 
-Siit algab alalekhekülg MINU TÖÖD 
+Siit algab MINU TÖÖD 
 */
 
 .hero-bg-kontakt {
@@ -210,7 +209,7 @@ Siit algab alalekhekülg MINU TÖÖD
 }
 
 /* 
-* Siit algab tööde galerii 
+* Siit algab TÖÖDE GALERII 
 */
 
 .hero-bg-toode-galerii {
@@ -234,7 +233,7 @@ Siit algab alalekhekülg MINU TÖÖD
 }
 
 /* 
-Siit algavad tööde detailvaated
+Siit algavad TÖÖDE DETAILVAATED
  */
 
 .container-tood-eraldi {

@@ -20,7 +20,6 @@
 
 .muudab-varvi {
     filter: invert(50%);
-    /* fill: var(--secondary-100); */
 }
 
 /* 
@@ -45,9 +44,6 @@ HAMBURGER BUTTON
 .fp-viewing-naitused .navbar-light .navbar-toggler-esileht:hover {
     background-color: var(--secondary-120);
 }
-
-
-
 /* 
 HAMBURGER BUTTON 
 */
@@ -123,8 +119,7 @@ body:not(.fp-viewing-0) .navbar-brand img {
 }
 
 .btn-nool-alla {
-    height: 86px;
-    /* background-color: none; */
+    height: 5.375rem;
     background: url("../img/nool_alla.svg") no-repeat top center;
 }
 
@@ -135,7 +130,9 @@ body:not(.fp-viewing-0) .navbar-brand img {
 
 
 
-/* Siit algab alalehekülg MINU TÖÖD */
+/* 
+Siit algab MINU TÖÖD 
+*/
 
 .navbar-icon-kontakt {
     width: 1.125rem;
@@ -156,11 +153,11 @@ body:not(.fp-viewing-0) .navbar-brand img {
     border-radius: 3rem;
 }
 
-/* Siit algab alalehekülg TUTVUSTUS */
-
+/* 
+Siit algab TUTVUSTUS 
+*/
 .navbar-icon-tutvustus {
     width: 1.125rem;
-    /* height: 0,625rem;  */
     background-image: url(../img/Hamburgerimenyy_laine_tutvustus.svg) !important;
 }
 
@@ -175,17 +172,15 @@ body:not(.fp-viewing-0) .navbar-brand img {
     width: 3rem;
     height: 3rem;
     background-color: var(--secondary-120);
-    /* background-image: url(../img/Hamburgerimenyy_laine_tutvustus.svg) no-repeat; */
     border-radius: 3rem;
 }
 
 /* 
-* Siit algab tööde galerii 
+* Siit algab TÖÖDE GALERII 
 */
 
 .navbar-icon-toode-galerii {
     width: 1.125rem;
-    /* height: 0,625rem;  */
     background-image: url(../img/hamburgerimenyy_laine.svg) !important;
 }
 
@@ -204,7 +199,7 @@ body:not(.fp-viewing-0) .navbar-brand img {
 }
 
 /* 
-Siit algavad tööde detailvaated
+Siit algavad TÖÖDE DETAILVAATED
  */
 
  .navbar-icon-tood-eraldi-sinine {

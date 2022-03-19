@@ -7,19 +7,13 @@
     overflow: auto;
 }
 
-/* .navbar-tutvustus {
-    margin: 2.25rem 8.5rem 0px 8.5rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-} */
-
 .navbar-tutvustus {
     margin: 2.25rem 2rem 0px 2rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .navbar-tutvustus {
         margin: 8,5rem 8.5rem 0 8.5rem;
     }
@@ -50,7 +44,9 @@
 .container-tutvustus {
     color: var(--white);
     text-align: center;
-    line-height: 28px;
+    line-height: 1.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .tutvustus {
@@ -68,7 +64,7 @@
 }
 
 .tutvustus-sisu-tekst {
-    max-width: 589px;
+    max-width: 36.5rem;
     text-align: center;
 }
 
