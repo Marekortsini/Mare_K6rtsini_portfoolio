@@ -1,11 +1,11 @@
 /* css kogumik, lingid */
-@import "_m_variables.css";
+@import "m_variables.css";
 
 /* css kujundused */
 
-@import "_text.css";
-@import "_section.css";
-@import "_buttons.css";
-@import "_tutvustus.css";
-@import "_kursor.css";
+@import "text.css";
+@import "section.css";
+@import "buttons.css";
+@import "tutvustus.css";
+@import "kursor.css";
 
