@@ -268,6 +268,7 @@ Siit algavad TÖÖDE DETAILVAATED
     margin-right: 1rem;
 }
 
+
 .nool-paremale:hover img {
     content: url(../img/nool_detail_paremale_must.svg);    
 }
